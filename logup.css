@@ -1,0 +1,22 @@
+.nav-login{
+    background-color:  #f2cd60 !important;
+    height: 5cm !important; 
+    margin-bottom:0px;
+}
+
+
+.card{
+    margin-top: -25px;
+    padding: 10px;
+    
+}
+#formulario{
+    background-color: rgb(233, 233, 231);
+}
+#footer{
+    background-color: rgb(233, 233, 231);
+    text-align: center;
+    height: 4cm !important;
+    padding-top: 50px;
+    margin-top: 0px;
+}

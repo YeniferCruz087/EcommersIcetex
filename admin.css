@@ -1,0 +1,31 @@
+#navA{
+    background-color: #f2cd60 !important;
+    width: 100%;
+}
+
+.nav-link{
+    color: black;
+}
+.titulo{
+    color: black;
+}
+.d-flex{
+    padding: 10px;
+    margin: 2px;
+}
+#piePagina{
+    height: 2cm;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.footer{
+    background-color: rgb(233, 233, 231);
+}
+
+#tamanoImagen{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+}

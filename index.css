@@ -1,0 +1,26 @@
+
+.nav,.nav-link{
+    color: black;
+    padding: 5px; 
+    margin-right: 10px;
+}
+.navIndex{
+    background-color: #f2cd60 !important;
+    align-items: center;  
+    padding: 10px;
+    margin: 2px;
+}
+#footer{
+    background-color: rgb(233, 233, 231);
+    text-align: center;
+    height: 2cm !important;
+}
+#atencion{
+    padding-top:15px;
+}
+.carousel{
+ height: -300px;
+}
+
+
+
