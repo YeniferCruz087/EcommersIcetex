@@ -7,6 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Home.css" type="text/css">
+    <script src="./carrito.js" defer></script>
+    <script src="./listas.js" defer></script>
+    
+ 
 
 </head>
 <body>
@@ -91,75 +95,51 @@
       </div>
     </div>
   </nav>
-        
-    <section>
-        <div class="row">
-            <div class="col-sm-4 mb-3 mb-sm-0">
-              <div class="card">
-                <div class="card-body">
-                  <img src="imagenes/ropaMujerVerano7.jpg" class="card-img-top img-fluid" alt="Ropa mujer verano">
-                  <h5 class="card-title">Ropa verano mujer</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Ver mas</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                <img src="imagenes/ropaMujerVerano6jpg.jpg" class="card-img-top img-fluid"  id="tamanoImagen"   alt="Ropa mujer verano">
-                  <h5 class="card-title">Ropa verano Hombre</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">ver mas</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body">
-                    <img src="imagenes/ropaVeranoHombre1.jpeg" class="card-img-top img-fluid" id="tamanoImagen" alt="Ropa hombre verano">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">ver mas</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </section>
-    <section>
-        <div class="row">
-            <div class="col-sm-4 mb-3 mb-sm-0">
-              <div class="card">
-                <div class="card-body">
-                  <img src="imagenes/ropaHombreVerano.jpg" class="card-img-top img-fluid" id="tamanoImagen" alt="Ropa hombre verano" >
-                  <h5 class="card-title">Zapatos informales hombre</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Ver mas</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="card">
-                <div class="card-body">
-                  <img src="imagenes/ropaNiñosVerano.jpg" class="card-img-top img-fluid" id="tamanoImagen"  alt="Ropa niños verano">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Ver mas</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card">
-                  <div class="card-body">
-                    <img src="imagenes/ropaNiños2.jpg" class="card-img-top img-fluid" id="tamanoImagen"  alt="Ropa niños verano">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Ver mas</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-    </section>
+ <section>
+    <div class="container catalogo d-flex" id="Catalogo-productos">
+      <div class="card d-flex" style="width: 18rem">
+        <img
+          src="imagenes/ropaMujerVerano7.jpg"
+          class="card-img-top d-flex align-self-center"
+          alt="Ropa mujer"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Frescura y suavidad
+          </p>
+          <p class="card-text">$250000</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="carrito-compras">
+      <div class="carrito-compras-titulo">
+        <h2>Carrito compras</h2>
+      </div>
+      <div class="carrito-compras-items">
+        <ul class="list-group list-group-flush" id="carrito-compras-lista">
+          <li class="list-group-item d-flex flex-row justify-content-evenly align-items-center">
+            <img
+              src="imagenes/ropaMujerVerano7.jpg"
+              class="item-img"
+              alt="Ropa mujer"
+            />
+            <p>Ropa Mujer</p>
+            <p><i>250000</i></p>
+            <button type="button" class="btn btn-danger">Eliminar</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+    
+  
+     
     <section id="metodosPago">
         <div class="container text-center">
           <div class="row justify-content-center align-items-center">
@@ -203,5 +183,7 @@
         </div>
       </div>
     </footer>  
+  
+    
 </body>
 </html>

@@ -11,6 +11,38 @@
     background-color: #f2cd60;
 }
 
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px !important; 
+
+  }
+.card-img-top{
+    height: 20% !important;
+    height: 200px !important;
+}
+.carrito-compras{
+    position: fixed;
+    right: 0px;
+    width: 380px;
+    height: 50%;
+    top: 200px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.carrito-compras-titulo{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.item-img{
+    height: 40px !important;
+}
+
+
+
+
 #metodosPago{
     padding: 25px;
     height: 3cm;
@@ -18,7 +50,7 @@
 }
 
 #tamanoImagen{
-    width: 450px;
+    width: 400px;
     height: 276px;
     object-fit: contain;
     object-position: center;
@@ -35,7 +67,3 @@
 .footer{
     background-color: rgb(233, 233, 231);
 }
-
-
-
-

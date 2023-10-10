@@ -13,6 +13,17 @@
     padding: 10px;
     margin: 2px;
 }
+
+#inventario{
+    width: 400px;
+    height: 70%;
+    top: 200px;
+    padding: 15px;
+    border: 1px solid black;
+    align-items: center;
+    margin-left: 350px;
+}
+
 #piePagina{
     height: 2cm;
     padding: 10px;
